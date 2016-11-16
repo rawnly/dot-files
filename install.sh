@@ -4,25 +4,30 @@ mv dist/aliases.sh .aliases
 mv dist/profile.sh .profile
 
 mkdir ~/.shells/
+# mkdir ~/Desktop/shells
 
-mv dist/.* ~/.shells/
+cp dist/.* ~/.shells/
+# cp dist/.* ~/Desktop/shells/
 
-cat rcfile.sh ~/.bashrc && cat rcfile.sh ~/.zshrc
+
+cat dist/rcfile.sh ~/.bashrc && cat dist/rcfile.sh ~/.zshrc
+# cat dist/rcfile.sh >> ~/Desktop/bashrc.sh && cat dist/rcfile.sh >> ~/Desktop/zshrc.sh
+
 
 echo "Remove Repo Files?"
 read answer
 
-while [true]; do
-  if [ $answer == 'Yes' ]
-    then
-    cd ..
-    rm -rf OSX_SETUP
-  elif [ $answer == 'No' ]
-    then
-    break;;
-  else
-    echo "Please answer Yes or No ( case sensitive )"
-  fi
+PS3="Do you want download Chili Scale and MDL COLORS? "
+select option in yes no
+do
+    case $option in
+        yes)
+            cd ..
+            rm -rf OSX_SETUPS
+            break;;
+        no)
+            break;;
+     esac
 done
 
 echo "Done! Please visit https://www.github.com/Rawnly for more infos."
