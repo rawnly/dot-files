@@ -1,0 +1,17 @@
+{
+  "name": "osx-setup",
+  "version": "0.0.1",
+  "description": "Osx bash setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('OSX SETUP');"
+  },
+  "keywords": [
+    "osx",
+    "setup",
+    "l",
+    "shellscript"
+  ],
+  "author": "Federico Vitale",
+  "license": "MIT"
+}
