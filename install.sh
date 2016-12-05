@@ -10,14 +10,14 @@ cp dist/.* ~/.shells/
 # cp dist/.* ~/Desktop/shells/
 
 
-cat dist/rcfile.sh ~/.bashrc && cat dist/rcfile.sh ~/.zshrc
+cat dist/rcfile.sh >> ~/.bashrc && cat dist/rcfile.sh >> ~/.zshrc
 # cat dist/rcfile.sh >> ~/Desktop/bashrc.sh && cat dist/rcfile.sh >> ~/Desktop/zshrc.sh
 
 
 echo "Remove Repo Files?"
 read answer
 
-PS3="Do you want download Chili Scale and MDL COLORS? "
+PS3="Do you want delete this folder?"
 select option in yes no
 do
     case $option in
