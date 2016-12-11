@@ -13,7 +13,7 @@ Via **Node.js**:
 
 -->
 Via **Browser**:
-Simply download the [latest][lat] release or clone this repo and run `install_$SHELL.sh` or run the following line:
+Simply download the [latest][lat] release or clone this repo and run `install.sh` or run the following line without cloni g repo:
 
 **bash**
 ```bash
@@ -28,13 +28,14 @@ source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.inst
 ```
 
 ## OH-MY-ZSH plugin
-Run the following script:
+Run the following:
 
 ```bash
 # OH-MY-ZSH Shell
 source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_oh-my-zsh.sh)
 ```
-or run `install.sh`
+
+or clone this repo and copy `zsh/dotfiles` folder to `~/.oh-my-zsh/custom/plugins/`
 
 
 Extra
@@ -44,8 +45,8 @@ Extra
 * [node.js](http://nodejs.org)
 
 ##### The Screenshot
-- Terminal: [Hyper]() with [hyper-snazzy]() theme.
-- Shell: [Zsh]() with [simple]() zsh theme.
+- Terminal: [Hyper](http://hyper.is) with [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) theme by [@sindresorhus](http://github.com/sindresorhus).
+- Shell: [Zsh]() with [simple](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/simple.zsh-theme) zsh theme.
 
 
 
