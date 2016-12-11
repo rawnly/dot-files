@@ -1,17 +1,24 @@
 {
-  "name": "osx-setup",
-  "version": "0.0.1",
-  "description": "Osx bash setup",
+  "name": "dot-files",
+  "version": "0.1.0",
+  "description": "dot files setup",
   "main": "index.js",
   "scripts": {
-    "test": "console.log('OSX SETUP');"
+    "test": "echo 'No TEST'"
   },
   "keywords": [
     "osx",
     "setup",
-    "l",
-    "shellscript"
+    "shellscript",
+    "dot",
+    "files",
+    "dotfiles",
+    "dot-files"
   ],
-  "author": "Federico Vitale",
+  "author": {
+    "name": "Federico Vitale",
+    "username": "Rawnly",
+    "email": "fedevitale99@gmail.com"
+  },
   "license": "MIT"
 }
