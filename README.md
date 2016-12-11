@@ -7,7 +7,7 @@ My personal dot files.
 
 > Please be sure to have installed [node](http://nodejs.org) and [brew](http://brew.sh).
 
-Via **Browser**:
+Via **Browser**: <br>
 Simply download the [latest][lat] release or clone this repo and run
 
 ```bash
