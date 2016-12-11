@@ -21,8 +21,14 @@ source <(curl -s https://raw.githubusercontent.com/Rawnly/OSX-SETUP/master/insta
 
 ### Dependecies
 * [weather-commandline](http://github.com/rawnly/weather-commandline)
+* [node.js](http://nodejs.org)
 
-**Get powerfull experience with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) & [Hyper](http://hyper.is) terminal**
+<br>
+<br>
+---
+<h4 align="center">
+Get powerfull experience with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) & [Hyper](http://hyper.is) terminal
+</h4>
 
 [installation]: https://github.com/Rawnly/OSX-SETUP/blob/master/install.sh
 [lat]: https://github.com/Rawnly/OSX-SETUP/releases/
