@@ -17,11 +17,17 @@ Simply download the [latest][lat] release or clone this repo and run `install_$S
 
 ```bash
 # Bash Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/OSX-SETUP/master/install_bash.sh)
+source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/install_bash.sh)
 
 # ZSH Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/OSX-SETUP/master/install_bash.sh)
+source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/install_bash.sh)
 ```
+## ZSH
+If you are a **zsh** user you can also install the [plugin][plugin] and *jump* the previous installation via script.
+
+**Instructions**:
+Move the [file][plugin] 
+
 
 
 Extra
@@ -43,8 +49,9 @@ Extra
 Get powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
 </h4>
 
-<p align="center"> Made with a ![keyboard](keyboard.png) by Rawnly </p>
+<p align="center"> Made with a :heart: by Rawnly </p>
 
-[installation]: https://github.com/Rawnly/OSX-SETUP/blob/master/install.sh
-[lat]: https://github.com/Rawnly/OSX-SETUP/releases/
+[installation]: https://github.com/Rawnly/dot-files/blob/master/install.sh
+[lat]: https://github.com/Rawnly/dot-files/releases/
 [me]: https://www.github.com/Rawnly/
+[plugin]: http://github.com/Rawnly/dot-files/plugin/dotfiles.plugin.zsh
