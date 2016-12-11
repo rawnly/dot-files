@@ -25,5 +25,5 @@ source <(curl -s https://raw.githubusercontent.com/Rawnly/OSX-SETUP/master/insta
 **Get powerfull experience with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) & [Hyper](http://hyper.is) terminal**
 
 [installation]: https://github.com/Rawnly/OSX-SETUP/blob/master/install.sh
-[lat]: https://www.github.com/Rawnly/
+[lat]: https://github.com/Rawnly/OSX-SETUP/releases/
 [me]: https://www.github.com/Rawnly/
