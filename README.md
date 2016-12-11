@@ -1,4 +1,4 @@
- # Dot Files
+# Dot Files
 My personal dot files.
 
 ![alt](screenshot.png)
