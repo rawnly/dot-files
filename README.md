@@ -4,16 +4,18 @@ My personal dot files.
 ![alt](img/screenshot.png)
 
 ## Installation
-<!--
 
-Via **Node.js**:
+> Please be sure to have installed [node](http://nodejs.org) and [brew](http://brew.sh).
+
+Via **Browser**:
+Simply download the [latest][lat] release or clone this repo and run
+
 ```bash
-	npm install OSX-SETUP
+  cd ../path/to/dot-files/
+  npm install && chmod +x install.sh && ./install.sh
 ```
 
--->
-Via **Browser**:
-Simply download the [latest][lat] release or clone this repo and run `install.sh` or run the following line without cloni g repo:
+or run the following line without cloning the repo:
 
 **bash**
 ```bash
@@ -58,7 +60,7 @@ Extra
 Get powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
 </h4>
 
-<p align="center"> Made with a :heart: by Rawnly </p>
+<p align="center"> Made with :heart: by Rawnly </p>
 
 [installation]: https://github.com/Rawnly/dot-files/blob/master/install.sh
 [lat]: https://github.com/Rawnly/dot-files/releases/
