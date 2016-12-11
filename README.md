@@ -1,18 +1,29 @@
-# SETUP
+ # Dot Files
+My personal dot files.
 
-```shell
-  # Your .bashrc or .zshrc
-  export LOCALIP=$(LANG=C /sbin/ifconfig  | sed -ne $'/127.0.0.1/ ! { s/^[ \t]*inet[ \t]\\{1,99\\}\\(addr:\\)\\{0,1\\}\\([0-9.]*\\)[ \t\/].*$/\\2/p; }')
-  export NAME=" your name "
-  export SURNAME=" your surname "
-  export FULLNAME="$NAME $SURNAME"
-  export NICKNAME=" your nickname "
+![alt](screenshot.png)
 
-  # Source files
-  # Recommended ~/file.sh
-  . path/to/aliases.sh
-  . path/to/profile.sh
+## Installation
+<!-- 
 
-  # Invoke welcome message function in profile.sh
-  welcome
+Via **Node.js**:
+```bash
+	npm install OSX-SETUP 
 ```
+
+-->
+Via **Browser**: 
+Simply download the [latest][lat] release or clone this repo and run [install.sh][installation] or run the following line:
+```bash
+source <(curl -s https://raw.githubusercontent.com/Rawnly/OSX-SETUP/master/install.sh)
+
+```
+
+### Dependecies
+* [weather-commandline](http://github.com/rawnly/weather-commandline)
+
+**Get powerfull experience with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)**
+
+[installation]: https://github.com/Rawnly/OSX-SETUP/blob/master/install.sh
+[lat]: https://www.github.com/Rawnly/
+[me]: https://www.github.com/Rawnly/
