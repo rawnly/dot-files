@@ -10,12 +10,6 @@ alias pub="dig +short myip.opendns.com @resolver1.opendns.com"
 
 # === END ALIAS ===
 
-# PERSONAL
-
-alias d="cd ~/Desktop"
-
-
-
 
 # ADB and Fastboot to prevent ./adb or ./fastboot < command >
 alias adb='./adb'
@@ -45,7 +39,7 @@ alias _="sudo"
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 # Figlet
-alias hyper='figlet hyper.app | lolcat'
+# alias hyper='figlet hyper.app | lolcat'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="clear; zsh"
@@ -69,6 +63,9 @@ alias nlist="ls `npm root -g`"
 alias download="curl -O"
 
 # CRA | Craeate React Application
-alias react="create-react-app ${1} && cd $1"
+# alias react="create-react-app ${1} && cd $1"
+
 # Cute files
-alias cute="cute-files -p ${1}"
+# Before be sure to have installed `cute-files`
+# with sudo npm install -g cute-files
+# alias cute="cute-files -p ${1}"

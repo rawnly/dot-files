@@ -41,30 +41,30 @@ website() {
   mkdir dist/js/
   mkdir dist/css/
 
-  sleep 1
+  sleep 0.2
 
   # Files
   touch dist/js/index.js | echo "Touching Index.js"
   touch dist/css/style.css | echo "Touching Style.css"
   touch dist/index.html | echo "Touching Index.html"
 
-  sleep 1
+  sleep 0.2
 
   # Non Compiled Folders
   mkdir sass/
   mkdir coffee/
 
-  sleep 1
+  sleep 0.2
 
   # Files
   touch coffee/index.coffee | echo "Touching Index.coffee"
   touch sass/style.scss | echo "Touching Style.scss"
 
-  sleep 1
+  sleep 0.2
 
   touch Gulpfile.js | echo "Touching Gulpfile"
 
-  sleep 1
+  sleep 0.2
 
   # Inits
   git init
@@ -86,7 +86,7 @@ website() {
               curl --silent -O https://raw.githubusercontent.com/Rawnly/Chili.css/master/dist/chili.css > /dev/null
               cd ..
               cd js
-              curl --silent -O https://raw.githubusercontent.com/Rawnly/scale.js/master/dist/js/scale.js > /dev/null
+              curl --silent -O https://raw.githubusercontent.com/Rawnly/scale.js/master/dist/scale.js > /dev/null
               cd ../..
               echo "Byeee!"
               atom .
@@ -156,22 +156,6 @@ server() {
   fi
 }
 
-# Create new file
-new() {
-  if [ -z "${1}" ]
-    then
-      echo "\e[31m》ERROR: \e[34mMissing file name."
-      return 1
-    else
-      if [ -e ${1} ]
-        then
-          echo "\e[34;1m》$1\e[0m \e[31;1malready exists!!\e[0m";
-        else
-          echo > $1;
-          echo "\e[34;1m》$1\e[0m \e[32;1msuccesfully created.\e[0m"
-      fi
-  fi
-}
 
 # Check if a folder or a file exists
 check() {
@@ -186,10 +170,9 @@ check() {
           echo "\e[31m》ERROR 404: \e[34m $1 not found."
       fi
   fi
-
 }
 
-# Show current folder in finder
+# Open current folder in finder
 show() {
   open . -a Finder
 }
@@ -244,16 +227,11 @@ ignore() {
 }
 
 devInstall() {
-  if  ls `npm root -g` | grep -Fxq 'nm'
-  then
-    echo "npm installed!"
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    npm install -g Gulp browser-sync create-react-app electron electron-packager
-    brew install wget
-  else
-    url = 'https://nodejs.org/en/download/'
+  npm install -g Gulp browser-sync create-react-app electron electron-packager weather-commandline
+}
 
-    echo "Please install NPM from here: "
-    echo $url
-  fi
+pushit() {
+  git add *
+  git commit -m "$@";
+  git push -u origin master
 }
