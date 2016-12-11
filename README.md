@@ -1,7 +1,7 @@
 # Dot Files
 My personal dot files.
 
-![alt](screenshot.png)
+![alt](img/screenshot.png)
 
 ## Installation
 <!--
@@ -15,19 +15,26 @@ Via **Node.js**:
 Via **Browser**:
 Simply download the [latest][lat] release or clone this repo and run `install_$SHELL.sh` or run the following line:
 
+**bash**
 ```bash
 # Bash Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/install_bash.sh)
-
-# ZSH Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/install_bash.sh)
+source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_bash.sh)
 ```
-## ZSH
-If you are a **zsh** user you can also install the [plugin][plugin] and *jump* the previous installation via script.
 
-**Instructions**:
-Move the [file][plugin] 
+**zsh**
+```bash
+# ZSH Shell
+source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_zsh.sh)
+```
 
+## OH-MY-ZSH plugin
+Run the following script:
+
+```bash
+# OH-MY-ZSH Shell
+source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_oh-my-zsh.sh)
+```
+or run `install.sh`
 
 
 Extra
