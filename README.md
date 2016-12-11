@@ -27,7 +27,7 @@ source <(curl -s https://raw.githubusercontent.com/Rawnly/OSX-SETUP/master/insta
 <br>
 ---
 <h4 align="center">
-Get powerfull experience with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) & [Hyper](http://hyper.is) terminal
+Get powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
 </h4>
 
 [installation]: https://github.com/Rawnly/OSX-SETUP/blob/master/install.sh
