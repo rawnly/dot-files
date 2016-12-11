@@ -1,10 +1,10 @@
 {
   "name": "dot-files",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "dot files setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'No TEST'"
+    "install": "sudo npm install -g weather-commandline"
   },
   "keywords": [
     "osx",
