@@ -38,6 +38,7 @@ source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.inst
 or clone this repo and copy `zsh/dotfiles` folder to `~/.oh-my-zsh/custom/plugins/`
 
 
+
 Extra
 ---
 ##### Dependecies
