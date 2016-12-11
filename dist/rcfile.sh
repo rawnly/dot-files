@@ -6,8 +6,8 @@ export FULLNAME="$NAME $SURNAME"
 export NICKNAME="edit this in ~/.zshrc"
 
 # Source files
-source ~/.shells/.aliases # or . path/to/file
-source ~/.shells/.profile # or . path/to/file
+source ~/.shells/aliases.sh
+source ~/.shells/profile.sh
 
 # Invoke welcome message function in profile.sh
 welcome
