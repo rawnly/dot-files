@@ -41,30 +41,30 @@ website() {
   mkdir dist/js/
   mkdir dist/css/
 
-  sleep 0.2
+  sleep 1
 
   # Files
   touch dist/js/index.js | echo "Touching Index.js"
   touch dist/css/style.css | echo "Touching Style.css"
   touch dist/index.html | echo "Touching Index.html"
 
-  sleep 0.2
+  sleep 1
 
   # Non Compiled Folders
   mkdir sass/
   mkdir coffee/
 
-  sleep 0.2
+  sleep 1
 
   # Files
   touch coffee/index.coffee | echo "Touching Index.coffee"
   touch sass/style.scss | echo "Touching Style.scss"
 
-  sleep 0.2
+  sleep 1
 
   touch Gulpfile.js | echo "Touching Gulpfile"
 
-  sleep 0.2
+  sleep 1
 
   # Inits
   git init
@@ -86,7 +86,7 @@ website() {
               curl --silent -O https://raw.githubusercontent.com/Rawnly/Chili.css/master/dist/chili.css > /dev/null
               cd ..
               cd js
-              curl --silent -O https://raw.githubusercontent.com/Rawnly/scale.js/master/dist/scale.js > /dev/null
+              curl --silent -O https://raw.githubusercontent.com/Rawnly/scale.js/master/dist/js/scale.js > /dev/null
               cd ../..
               echo "Byeee!"
               atom .
@@ -156,6 +156,22 @@ server() {
   fi
 }
 
+# Create new file
+new() {
+  if [ -z "${1}" ]
+    then
+      echo "\e[31m》ERROR: \e[34mMissing file name."
+      return 1
+    else
+      if [ -e ${1} ]
+        then
+          echo "\e[34;1m》$1\e[0m \e[31;1malready exists!!\e[0m";
+        else
+          echo > $1;
+          echo "\e[34;1m》$1\e[0m \e[32;1msuccesfully created.\e[0m"
+      fi
+  fi
+}
 
 # Check if a folder or a file exists
 check() {
@@ -170,9 +186,10 @@ check() {
           echo "\e[31m》ERROR 404: \e[34m $1 not found."
       fi
   fi
+
 }
 
-# Open current folder in finder
+# Show current folder in finder
 show() {
   open . -a Finder
 }
@@ -216,22 +233,35 @@ edit() {
   # EXAMPLE: edit .
 }
 
+# now i actually use splash-cli node module
+u-splash() {
+  unsplash get -s 1920,1080 --random
+}
+
+# Add all and push
+pushit() {
+  if [ -z "${1}" ]; then
+    echo "Usage: "
+    echo -ne "pushit <commit>     "
+    echo "# Push & Add all with commit"
+  else
+    git add *
+    git commit -m "$1";
+    git push -u origin master
+  fi
+}
+
+gi() {
+  curl -L -s https://www.gitignore.io/api/$@
+}
+
+
 ignore() {
   if [ -z "${1}" ]
     then
-      gi node,coffeescript,sass,windows,osx > .gitignore && gi node,coffeescript,sass,windows,osx > .npmignore
+      gi node,windows,osx > .gitignore && gi node,coffeescript,sass,windows,osx > .npmignore
     else
       gi ${1} > .gitignore && gi ${1} > .npmignore
     fi
   echo "\e[32;1m》Done\e"
-}
-
-devInstall() {
-  npm install -g Gulp browser-sync create-react-app electron electron-packager weather-commandline
-}
-
-pushit() {
-  git add *
-  git commit -m "$@";
-  git push -u origin master
 }

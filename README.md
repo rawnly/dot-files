@@ -1,7 +1,7 @@
 # Dot Files
 My personal dot files.
 
-![alt](img/screenshot.png)
+![screenshot](https://cloud.githubusercontent.com/assets/16429579/21440180/133bd4da-c892-11e6-86ca-8832327069e0.png)
 
 ## Installation
 
@@ -60,7 +60,7 @@ Extra
 Get powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
 </h4>
 
-<p align="center"> Made with :heart: by Rawnly </p>
+<p align="center"> Made with a ⌨️ by Rawnly </p>
 
 [installation]: https://github.com/Rawnly/dot-files/blob/master/install.sh
 [lat]: https://github.com/Rawnly/dot-files/releases/

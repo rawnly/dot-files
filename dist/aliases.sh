@@ -11,6 +11,7 @@ alias pub="dig +short myip.opendns.com @resolver1.opendns.com"
 # === END ALIAS ===
 
 
+
 # ADB and Fastboot to prevent ./adb or ./fastboot < command >
 alias adb='./adb'
 alias fastboot='./fastboot'
@@ -31,7 +32,7 @@ alias guls="gulp --silent"
 alias ls="ls ${colorflag}"
 
 # Do what I fucking tell you to, machine.
-alias fucking='sudo '
+alias fucking='sudo'
 alias _="sudo"
 
 
@@ -42,7 +43,7 @@ alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resourc
 # alias hyper='figlet hyper.app | lolcat'
 
 # Reload the shell (i.e. invoke as a login shell)
-alias reload="clear; zsh"
+alias reload="clear; $SHELL"
 
 # Clear Shortcuts
 alias c="clear"
@@ -66,6 +67,4 @@ alias download="curl -O"
 # alias react="create-react-app ${1} && cd $1"
 
 # Cute files
-# Before be sure to have installed `cute-files`
-# with sudo npm install -g cute-files
 # alias cute="cute-files -p ${1}"
