@@ -57,10 +57,10 @@ Extra
 <br>
 ---
 <h4 align="center">
-Get powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
+Get a powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
 </h4>
 
-<p align="center"> Made with a ⌨️ by Rawnly </p>
+<p align="center"> Made with a ⌨️  in 🇮🇹 </p>
 
 [installation]: https://github.com/Rawnly/dot-files/blob/master/install.sh
 [lat]: https://github.com/Rawnly/dot-files/releases/
