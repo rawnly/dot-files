@@ -25,19 +25,22 @@ This will start the installation process that make sure you have all the missing
 ### Font
 The font used in the screenshot is [Fira Code][firacode]
 
-### Terminal APP
+### Terminal APP
 My main terminal is currently [iTerm2][iterm]. I moved from [hyper][hyperjs] because [iTerm][iterm] is faster.
 
-### Hyper JS Suggestions
-Many people asked me my hyper config in the past, so, sincerely I don't remember, it's past quite a few time and it was a custom configuration (no theme), however I strongly recommend these 2 plugins: 
+#### iTerm2
+You can find my [configuration file](terminal-config/iTerm2/config.json) and [colorscheme](terminal-config/iTerm2/rawnly.itermcolors) in [`terminal-config/iTerm2`](terminal-config/iTerm2/)
 
+#### Hyper JS - [ConfigFile](terminal-config/Hyper/hyper.js)
+Many people asked me my hyper config in the past, so, sincerely I don't remember, it's past quite a few time and it was a custom configuration (no theme), however I strongly recommend these 2 plugins (*this is also my current configuration*): 
 - [verminal theme][verminal]
   - if you want to make verminal look more minimal, see [#19](https://github.com/defringe/verminal/issues/19)
+
 - [hyper-spotify][hyperspotify].
+---
 
 <br>
 <br>
----
 
 <p align="center"> Made with a ⌨️  in 🇮🇹 </p>
 
