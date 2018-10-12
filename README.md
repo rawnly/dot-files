@@ -48,7 +48,7 @@ You can fund my [`.hyper.js`](terminal-config/Hyper/hyper.js) in [`terminal-conf
 
 [lat]: https://github.com/Rawnly/dot-files/releases/latest
 [iterm]: https://www.iterm2.com
-[hyper]: https://hyper.is
+[hyperjs]: https://hyper.is
 [firacode]: https://github.com/tonsky/FiraCode
 [verminal]: https://github.com/defringe/verminal
 [hyperspotify]: https://github.com/panz3r/hyper-spotify
