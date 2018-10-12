@@ -16,10 +16,6 @@ alias pub="dig +short myip.opendns.com @resolver1.opendns.com"
 # === END ALIAS ===
 
 
-# ADB and Fastboot to prevent ./adb or ./fastboot < command >
-alias adb='./adb'
-alias fastboot='./fastboot'
-
 alias rf='rm -rf'
 
 # Config File
