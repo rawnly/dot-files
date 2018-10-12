@@ -31,10 +31,12 @@ My main terminal is currently [iTerm2][iterm]. I moved from [hyper][hyperjs] bec
 #### iTerm2
 You can find my [configuration file](terminal-config/iTerm2/config.json) and [colorscheme](terminal-config/iTerm2/rawnly.itermcolors) in [`terminal-config/iTerm2`](terminal-config/iTerm2/)
 
-#### Hyper JS - [ConfigFile](terminal-config/Hyper/hyper.js)
-Many people asked me my hyper config in the past, so, sincerely I don't remember, it's past quite a few time and it was a custom configuration (no theme), however I strongly recommend these 2 plugins (*this is also my current configuration*): 
+#### Hyper JS
+You can fund my [`.hyper.js`](terminal-config/Hyper/hyper.js) in [`terminal-config/Hyper`](terminal-config/Hyper)
+
+> Many people asked me a few times my hyper config in the past. Sincerely I don't remember it, it's past quite a few time since i moved to iTerm and I've lost my custom configuration (no theme...), however I strongly recommend these 2 plugins (*this is also my current configuration*): 
 - [verminal theme][verminal]
-  - if you want to make verminal look more minimal, see [#19](https://github.com/defringe/verminal/issues/19)
+  - if you want to make verminal look more minimal, see [#19](https://github.com/defringe/verminal/issues/19) or just look at [my config](terminal-config/Hyper/hyper.js)
 
 - [hyper-spotify][hyperspotify].
 ---
