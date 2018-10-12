@@ -1,68 +1,49 @@
 # Dot Files
 My personal dot files.
 
-![screenshot](https://cloud.githubusercontent.com/assets/16429579/21440180/133bd4da-c892-11e6-86ca-8832327069e0.png)
+<p align="center">
+  <h5 align="center"> iTerm2 </h5>
+  <img width="960" alt="iterm" src="https://user-images.githubusercontent.com/16429579/46893480-548db700-ce71-11e8-92fd-7ed0ee65e70c.png">
+
+  <h5 align="center"> Hyper Terminal </h5>
+  <img width="960" alt="hyper" src="https://user-images.githubusercontent.com/16429579/46893482-55bee400-ce71-11e8-8d91-42ecb58a03f8.png">
+</p>
+
 
 ## Installation
+> ##### :warning: Please make sure you have `curl` installed.
 
-> Please be sure to have installed [node](http://nodejs.org) and [brew](http://brew.sh).
+### Installation (macOS)
+Download the latest release and run the `setup_macos.sh` script.
+This will start the installation process that make sure you have all the missing packages/components.
 
-Via **Browser**: <br>
-Simply download the [latest][lat] release or clone this repo and run
+### Installation (Other OS)
+Download the latest release and run the `setup_linux.sh` script.
+This will start the installation process that make sure you have all the missing packages/components.
 
-```bash
-  cd ../path/to/dot-files/
-  npm install && chmod +x install.sh && ./install.sh
-```
+## MISC
+### Font
+The font used in the screenshot is [Fira Code][firacode]
 
-or run the following line without cloning the repo:
+### Terminal APP
+My main terminal is currently [iTerm2][iterm]. I moved from [hyper][hyperjs] because [iTerm][iterm] is faster.
 
-**bash**
-```bash
-# Bash Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_bash.sh)
-```
+### Hyper JS Suggestions
+Many people asked me my hyper config in the past, so, sincerely I don't remember, it's past quite a few time and it was a custom configuration (no theme), however I strongly recommend these 2 plugins: 
 
-**zsh**
-```bash
-# ZSH Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_zsh.sh)
-```
-
-## OH-MY-ZSH plugin
-Run the following:
-
-```bash
-# OH-MY-ZSH Shell
-source <(curl -s https://raw.githubusercontent.com/Rawnly/dot-files/master/.installers/remote/_oh-my-zsh.sh)
-```
-
-or clone this repo and copy `zsh/dotfiles` folder to `~/.oh-my-zsh/custom/plugins/`
-
-
-
-Extra
----
-##### Dependecies
-* [weather-commandline](http://github.com/rawnly/weather-commandline)
-* [node.js](http://nodejs.org)
-
-##### The Screenshot
-- Terminal: [Hyper](http://hyper.is) with [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) theme by [@sindresorhus](http://github.com/sindresorhus).
-- Shell: [Zsh]() with [simple](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/simple.zsh-theme) zsh theme.
-
-
+- [verminal theme][verminal]
+  - if you want to make verminal look more minimal, see [#19](https://github.com/defringe/verminal/issues/19)
+- [hyper-spotify][hyperspotify].
 
 <br>
 <br>
 ---
-<h4 align="center">
-Get a powerfull experience with <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> & <a href="http://hyper.is">Hyper</a> terminal
-</h4>
 
 <p align="center"> Made with a ⌨️  in 🇮🇹 </p>
 
-[installation]: https://github.com/Rawnly/dot-files/blob/master/install.sh
-[lat]: https://github.com/Rawnly/dot-files/releases/
-[me]: https://www.github.com/Rawnly/
-[plugin]: http://github.com/Rawnly/dot-files/plugin/dotfiles.plugin.zsh
+[lat]: https://github.com/Rawnly/dot-files/releases/latest
+[iterm]: https://www.iterm2.com
+[hyper]: https://hyper.is
+[firacode]: https://github.com/tonsky/FiraCode
+[verminal]: https://github.com/defringe/verminal
+[hyperspotify]: https://github.com/panz3r/hyper-spotify
