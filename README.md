@@ -13,13 +13,10 @@ My personal dot files.
 ## Installation
 > ##### :warning: Please make sure you have `curl` installed.
 
-### Installation (macOS)
-Download the latest release and run the `setup_macos.sh` script.
+### Installation (MacOS or Linux)
+Download the latest release and run the `setup.sh` script.
 This will start the installation process that make sure you have all the missing packages/components.
 
-### Installation (Other OS)
-Download the latest release and run the `setup_linux.sh` script.
-This will start the installation process that make sure you have all the missing packages/components.
 
 ## MISC
 ### Font
